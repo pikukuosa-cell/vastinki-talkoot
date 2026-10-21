@@ -1,6 +1,6 @@
 // Pieni service worker: tallentaa vain kuoren (tämä sivu, manifesti ja kuvakkeet) välimuistiin,
 // jotta sovellus täyttää "asennettavan sovelluksen" ehdot. Itse talkootiedot haetaan aina Googlelta.
-var CACHE = "talkoot-kuori-v1";
+var CACHE = "talkoot-kuori-v2";
 var FILES = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", function (e) {
